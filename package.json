@@ -1,0 +1,43 @@
+{
+  "name": "bank-of-canada-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Bank of Canada Valet API — live Canadian economic data (exchange rates, policy rate, CPI, bond yields) for Claude and other LLMs",
+  "type": "module",
+  "bin": {
+    "bank-of-canada-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "bank-of-canada",
+    "valet-api",
+    "economics",
+    "exchange-rates",
+    "finance",
+    "canada",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "Kole Harvey",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
