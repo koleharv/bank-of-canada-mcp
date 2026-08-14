@@ -1,6 +1,7 @@
 {
   "name": "bank-of-canada-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.arose26/bank-of-canada-mcp",
   "description": "MCP server for the Bank of Canada Valet API — live Canadian economic data (exchange rates, policy rate, CPI, bond yields) for Claude and other LLMs",
   "type": "module",
   "bin": {
