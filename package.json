@@ -1,7 +1,7 @@
 {
   "name": "bank-of-canada-mcp",
-  "version": "0.1.1",
-  "mcpName": "io.github.arose26/bank-of-canada-mcp",
+  "version": "0.1.2",
+  "mcpName": "io.github.koleharv/bank-of-canada-mcp",
   "description": "MCP server for the Bank of Canada Valet API — live Canadian economic data (exchange rates, policy rate, CPI, bond yields) for Claude and other LLMs",
   "type": "module",
   "bin": {
@@ -31,7 +31,7 @@
   "author": "Kole Harvey",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arose26/bank-of-canada-mcp.git"
+    "url": "git+https://github.com/koleharv/bank-of-canada-mcp.git"
   },
   "engines": {
     "node": ">=18"

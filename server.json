@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.arose26/bank-of-canada-mcp",
+  "name": "io.github.koleharv/bank-of-canada-mcp",
   "description": "Bank of Canada economic data: exchange rates, policy rate, CPI, bond yields. No API key.",
   "repository": {
-    "url": "https://github.com/arose26/bank-of-canada-mcp",
+    "url": "https://github.com/koleharv/bank-of-canada-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "bank-of-canada-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       }
